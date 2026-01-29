@@ -1,3 +1,4 @@
+
 # Python Mini Portfolio 🐍
 A collection of Python mini projects containing Python basics concepts.
 This repository contains small Python projects for beginners to practice Python fundamentals, CLI applications, file handling, APIs, and so on.  
@@ -25,10 +26,10 @@ It is designed as a professional portfolio to showcase coding skills.
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/python-beginner-portfolio.git
+git clone https://github.com/YOUR_USERNAME/python-mini-portfolio.git
 
 # Navigate to a project folder
-cd python-beginner-portfolio/01_python_basics
+cd python-mini-portfolio/01_python_basics
 
 # Run Python scripts
 python variables.py
