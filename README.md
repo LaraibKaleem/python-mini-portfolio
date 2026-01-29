@@ -1,9 +1,6 @@
-# Python-mini-portfolio
+# Python Mini Portfolio 🐍
 A collection of Python mini projects containing Python basics concepts.
-
-# Python Beginner Portfolio 🐍
-
-This repository contains small Python projects for beginners to practice Python fundamentals, CLI applications, file handling, APIs, and data analysis.  
+This repository contains small Python projects for beginners to practice Python fundamentals, CLI applications, file handling, APIs, and so on.  
 It is designed as a professional portfolio to showcase coding skills.
 
 ---
