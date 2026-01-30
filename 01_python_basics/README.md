@@ -2,6 +2,49 @@
 # Python Libraries, Packages, and Modules
 Python provides code reusability through modules, packages, and libraries. Understanding them is important for organizing your projects and using external functionality.
 
+**1️⃣ Module**
+A module is a single Python file (.py) that contains functions, classes, or variables.
+**Using built-in module**
+import math
+print(math.sqrt(16))  # Output: 4.0
+
+**own module**
+**# my_module.py**
+def greet(name):
+    return f"Hello, {name}!"
+# main.py
+import my_module
+print(my_module.greet("Laraib"))
+
+**2️⃣ Package**
+A package is a collection of Python modules in a folder with an __init__.py file.
+Organizes related modules into namespaces.
+my_package/
+│
+├── __init__.py
+├── module1.py
+└── module2.py
+
+**Using a module from a package**
+from my_package import module1
+module1.some_function()
+
+**3️⃣ Library**
+A library is a collection of modules and packages that provides specific functionality.
+
+**4️⃣ Installing External Libraries**
+**Use pip to install external libraries:**
+pip install numpy
+pip install pandas
+**import:**
+import pandas as pd
+
+| Concept | Definition                     | Example           |
+| ------- | ------------------------------ | ----------------- |
+| Module  | Single Python file             | `math`, `random`  |
+| Package | Collection of modules          | `my_package`      |
+| Library | Collection of modules/packages | `NumPy`, `Pandas` |
+
 # Python Operators
 Python operators are symbols used to perform operations on variables and values.
 They are categorized into several types:
