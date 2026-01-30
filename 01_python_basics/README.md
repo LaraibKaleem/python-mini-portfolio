@@ -4,6 +4,7 @@ Python provides code reusability through modules, packages, and libraries. Under
 
 **1️⃣ Module**
 A module is a single Python file (.py) that contains functions, classes, or variables.
+
 **Using built-in module**
 import math
 print(math.sqrt(16))  # Output: 4.0
@@ -12,7 +13,8 @@ print(math.sqrt(16))  # Output: 4.0
 **# my_module.py**
 def greet(name):
     return f"Hello, {name}!"
-# main.py
+
+**# main.py**
 import my_module
 print(my_module.greet("Laraib"))
 
