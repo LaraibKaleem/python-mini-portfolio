@@ -12,7 +12,12 @@ print("Factorial of 5:", math.factorial(5))
 # import my_module
 # print(my_module.greet("Laraib"))
 
-# 3️⃣ Using external library (NumPy)
+# 3️⃣ Installing External Libraries
+#Use pip to install external libraries:
+!pip install numpy
+!pip install pandas
+
+# 4️⃣ Using external library (NumPy)
 try:
     import numpy as np
     arr = np.array([1, 2, 3])
@@ -20,7 +25,7 @@ try:
 except ImportError:
     print("NumPy not installed. Run 'pip install numpy' to install.")
 
-# 4️⃣ Using external library (Pandas)
+# 5️⃣ Using external library (Pandas)
 try:
     import pandas as pd
     data = pd.DataFrame({'Name': ['Laraib', 'Ali'], 'Age': [23, 25]})
@@ -28,7 +33,3 @@ try:
 except ImportError:
     print("Pandas not installed. Run 'pip install pandas' to install.")
 
-#4️⃣ Installing External Libraries
-#Use pip to install external libraries:
-#pip install numpy
-#pip install pandas
