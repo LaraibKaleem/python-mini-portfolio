@@ -112,7 +112,13 @@ They are categorized into several types:
 | `re.match()`   | Match at start   |
 
 **📊 % String Formatting Specifiers Table**
-
+| Specifier | Data Type  | Example Code            | Output         | Explanation                 |
+| --------- | ---------- | ----------------------- | -------------- | --------------------------- |
+| `%s`      | String     | `"Hello %s" % "Laraib"` | `Hello Laraib` | Inserts string value        |
+| `%d`      | Integer    | `"Age %d" % 23`         | `Age 23`       | Inserts integer number      |
+| `%f`      | Float      | `"Price %.2f" % 10.5`   | `Price 10.50`  | Inserts float with decimals |
+| `%r`      | Any Object | `"Value %r" % "Hi"`     | `'Hi'`         | Shows raw representation    |
+| `%c`      | Character  | `"Char %c" % 'A'`       | `Char A`       | Inserts single character    |
 
 # Strings
 Strings are sequences of characters used to store text. In Python, strings are enclosed in single quotes '...' or double quotes "...".
@@ -125,7 +131,6 @@ Strings are sequences of characters used to store text. In Python, strings are e
 | start | starting index                |
 | end   | stopping index (not included) |
 | step  | skip characters               |
-
 
 **2️⃣ String Operations**
 | Operation     | Example               | Result           |
