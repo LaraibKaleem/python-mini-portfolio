@@ -15,10 +15,6 @@ It is designed as a professional portfolio to showcase coding skills.
 - File Organizer
 - File Handling Examples (create, write, read, append files)
 
-### 3. API Projects
-- Weather App
-- Currency Converter
-
 ## 🛠 Technologies Used
 - Python 3
 
