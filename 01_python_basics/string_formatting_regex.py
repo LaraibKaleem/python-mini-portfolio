@@ -19,7 +19,7 @@ print("My name is %s and I am %d" % (name, age))
 # -------------------------
 import re
 
-print("\n--- Regex Examples ---")
+print("\n--- Regex ---")
 
 text = "My score is 95 and email is test@gmail.com"
 
@@ -34,3 +34,4 @@ print("Emails:", emails)
 # Replace digits
 clean = re.sub(r"\d+", "", text)
 print("Removed numbers:", clean)
+
