@@ -107,7 +107,13 @@ Strings are sequences of characters used to store text. In Python, strings are e
 
 **1️⃣ Accessing Strings**
 **Indexing:** Access a single character by position (0-based index)
-**Slicing:** Access a substring
+**Slicing:** Access a substring string[start:end:step]
+| Part  | Meaning                       |
+| ----- | ----------------------------- |
+| start | starting index                |
+| end   | stopping index (not included) |
+| step  | skip characters               |
+
 
 **2️⃣ String Operations**
 | Operation     | Example               | Result           |
