@@ -102,6 +102,15 @@ They are categorized into several types:
 | `is`     | True if same object     | `x is y`     |
 | `is not` | True if not same object | `x is not y` |
 
+# Regular Expressions (Regex)
+**Common Regex Functions**
+| Function       | Purpose          |
+| -------------- | ---------------- |
+| `re.search()`  | Find first match |
+| `re.findall()` | Find all matches |
+| `re.sub()`     | Replace text     |
+| `re.match()`   | Match at start   |
+
 # Strings
 Strings are sequences of characters used to store text. In Python, strings are enclosed in single quotes '...' or double quotes "...".
 
