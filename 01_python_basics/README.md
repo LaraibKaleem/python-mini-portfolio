@@ -111,6 +111,9 @@ They are categorized into several types:
 | `re.sub()`     | Replace text     |
 | `re.match()`   | Match at start   |
 
+**📊 % String Formatting Specifiers Table**
+
+
 # Strings
 Strings are sequences of characters used to store text. In Python, strings are enclosed in single quotes '...' or double quotes "...".
 
