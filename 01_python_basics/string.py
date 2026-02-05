@@ -61,7 +61,25 @@ print("Partial reverse:", text[5:0:-1])
 print("\nNegative Slicing: Last 5 characters:", text[-5:])
 
 
+# 8️⃣ Regular Expressions (Regex)
+print("\n--- String Regular Expressions (Regex) ---")
+print("Name: %s" % name)
+print("Age: %d" % age)
+print("Price: %.2f" % price)
+print(f"My name is {name} and I am {age}")
+print("My name is {} and I am {}".format(name, age))
+print("My name is %s and I am %d" % (name, age))
 
-
-
+import re
+print("\n--- Regex ---")
+text = "My score is 95 and email is test@gmail.com"
+# Find numbers
+numbers = re.findall(r"\d+", text)
+print("Numbers:", numbers)
+# Extract email
+emails = re.findall(r"\s+@\s+", text)
+print("Emails:", emails)
+# Replace digits
+clean = re.sub(r"\d+", "", text)
+print("Removed numbers:", clean)
 
