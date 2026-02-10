@@ -236,7 +236,8 @@ Defined using curly braces {key: value}
 - No spaces or special characters (except _)
 
 3️⃣ **Variable Scope**
-- Local vs Global variables
+- Local variables
+- Global variables
 
 4️⃣ **Constants**
 - Convention: use all uppercase letters
