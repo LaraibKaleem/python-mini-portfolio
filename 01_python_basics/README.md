@@ -229,11 +229,14 @@ Defined using curly braces {key: value}
 
 1️⃣ **Basic Variables**
 - Integer, Float, String, Boolean
+
 2️⃣ **Variable Naming Rules**
 - Must start with a letter or underscore
 - Cannot start with a number
 - No spaces or special characters (except _)
+
 3️⃣ **Variable Scope**
 - Local vs Global variables
-4️⃣ Constants
+
+4️⃣ **Constants**
 - Convention: use all uppercase letters
