@@ -26,7 +26,12 @@ type(num)
 num_str2 = str(num)
 print("int to str:", num_str2, "Type:", type(num_str2))
 
-# 5️⃣ bool conversion
+# 5️⃣ Float to string
+flt = 3.5
+flt_str = str(flt)
+print(flt_str, type(flt_str))
+
+# 6️⃣ bool conversion
 print("bool(0):", bool(0))
 print("bool(1):", bool(1))
 print("bool(''):", bool(''))
