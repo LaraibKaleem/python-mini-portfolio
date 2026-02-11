@@ -157,7 +157,8 @@ Strings are sequences of characters used to store text. In Python, strings are e
 # Data Types Folder
 This folder contains Python related to:
 - Converting between data types (int, float, str, bool)  
-- Type casting (explicit & implicit conversion)  
+- Type casting (explicit & implicit conversion)
+- Type Checking: Check the data type using type()
 
 **Files:**
 - `convert_data_types.py` → Practical examples of converting variables between types  
