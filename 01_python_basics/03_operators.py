@@ -34,6 +34,8 @@ c += 3   # c = c + 3
 print("c += 3:", c)
 c *= 2   # c = c * 2
 print("c *= 2:", c)
+c /= 2   # c = c / 2
+print("c /= 2:", c)
 
 # 5️⃣ Membership Operators
 name = "Python"
@@ -47,3 +49,14 @@ c_list = [1, 2, 3]
 print("a_list is b_list:", a_list is b_list)       # True
 print("a_list is c_list:", a_list is c_list)       # False
 print("a_list is not c_list:", a_list is not c_list)  # True
+
+# 7️⃣ Bitwise Operators
+a = 5
+b = 3
+
+print("AND:", a & b)
+print("OR:", a | b)
+print("XOR:", a ^ b)
+print("NOT:", ~a)
+print("Left Shift:", a << 1)
+print("Right Shift:", a >> 1)
