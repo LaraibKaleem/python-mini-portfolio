@@ -87,8 +87,9 @@ They are categorized into several types:
 | `-=`     | Subtract and assign | `x -= 2 → x = x - 2`   |
 | `*=`     | Multiply and assign | `x *= 4 → x = x * 4`   |
 | `/=`     | Divide and assign   | `x /= 2 → x = x / 2`   |
+| `//=`     | Divide and assign (Floor division assign)  | `x //= 2 → x = x // 2`   |
 | `%=`     | Modulus and assign  | `x %= 3 → x = x % 3`   |
-| `**=`    | Exponent and assign | `x **= 2 → x = x ** 2` |
+| `**=`    | Exponent and assign (Power assign) | `x **= 2 → x = x ** 2` |
 
 **5️⃣ Membership Operators**
 | Operator | Description                              | Example                   |
@@ -97,13 +98,12 @@ They are categorized into several types:
 | `not in` | True if value does not exist in sequence | `'b' not in 'cat' → True` |
 
 **6️⃣ Identity Operators**
-| Operator | Description             | Example      |
-| -------- | ----------------------- | ------------ |
-| `is`     | True if same object     | `x is y`     |
-| `is not` | True if not same object | `x is not y` |
+| Operator | Name |Description             | Example      |
+| -------- | -------- | ----------------------- | ------------ |
+| `is`     | Identity |True if same object     | `x is y`     |
+| `is not` | Not Identity |True if not same object | `x is not y` |
 
 **7️⃣ Bitwise Operators**
-&, |, ^, ~, <<, >>
 | Operator | Name        | Example Code | Binary Example | Result | Explanation                       |
 | -------- | ----------- | ------------ | -------------- | ------ | --------------------------------- |
 | `&`      | AND         | `5 & 3`      | `101 & 011`    | `1`    | 1 only if both bits are 1         |
