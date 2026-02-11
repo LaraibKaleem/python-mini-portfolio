@@ -102,6 +102,18 @@ They are categorized into several types:
 | `is`     | True if same object     | `x is y`     |
 | `is not` | True if not same object | `x is not y` |
 
+**7️⃣ Bitwise Operators**
+&, |, ^, ~, <<, >>
+| Operator | Name        | Example Code | Binary Example | Result | Explanation                       |
+| -------- | ----------- | ------------ | -------------- | ------ | --------------------------------- |
+| `&`      | AND         | `5 & 3`      | `101 & 011`    | `1`    | 1 only if both bits are 1         |
+| `\|`     | OR          | `5 \| 3`     | `101 \| 011`   | `7`    | 1 if at least one bit is 1        |
+| `^`      | XOR         | `5 ^ 3`      | `101 ^ 011`    | `6`    | 1 if bits are different           |
+| `~`      | NOT         | `~5`         | `~00000101`    | `-6`   | Inverts bits (two’s complement)   |
+| `<<`     | Left Shift  | `5 << 1`     | `101 → 1010`   | `10`   | Shifts bits left (×2 each shift)  |
+| `>>`     | Right Shift | `5 >> 1`     | `101 → 10`     | `2`    | Shifts bits right (÷2 each shift) |
+
+
 # Regular Expressions (Regex)
 **Common Regex Functions**
 | Function       | Purpose          |
